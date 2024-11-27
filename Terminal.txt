@@ -1,0 +1,13 @@
+Terminal
+PARA NUEVOS REPOSITORIOS
+git init								INICIALIZA REPO LOCAL
+git add .								AÑADE TODOS LOS ARCHIVOS A "STAGING AREA", PUEDE SER UNO SOLO SI SE PONE EL NOMBRE EN LUGAR DE .
+git commit -m "first commit"						CONFIRMA LOS CAMBIOS CON COMENTARIO DE LO QUE SE HIZO
+git branch -M main							CREA RAMA MAIN O CUALQUIER NOMBRE QUE SEA, COMO MASTER PUEDE SER
+git remote add origin https://github.com/Paam-8/MeMeMe-Page.git		AÑADE UN REPO REMOTO, CON NOMBRE ORIGIN PERO PUEDE CAMBIARSE, CON LINK DEL REPO CON TERMINACIÓN .GIT
+git push -u origin main							EMPUJA LOS CAMBIOS QUE YA SE LE HICIERON COMMIT AL REPO REMOTO
+
+HTML
+<a> ayuda para poner un vínculo o para poner enlaces a otras páginas
+target indica si se estará redireccionando a partir de la misma pestaña o si se hace una en blanco y redireccionar desde ahí
+div agrupa elementos, la dif entre span es que usa todo el lado disponible, en cambio el span no por su display inline
